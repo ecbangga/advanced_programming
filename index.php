@@ -13,17 +13,19 @@
               public $email;
 
               function addFriend($name){
-                echo "$name"." ."."Added a friend <br>";
+                echo "$name"." ."."Added a friend";
+                echo "<br>";
               }
               function postStatus($name){
                 echo "$name"." ."."Posted a status <br>";
+                echo "<br>";
               }
             }
-            $example = new User();
+            $users1 = new User();
             echo "<br>";
-            echo $example->addFriend('Elvin Christian');
+            echo $users1->addFriend('Elvin Christian');
             echo "<br>";
-            echo $example->postStatus('Elvin Christian');
+            echo $users1->postStatus('Elvin Christian');
 
       ?>
   </body>
