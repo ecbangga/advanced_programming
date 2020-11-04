@@ -22,9 +22,9 @@
         <h2>Calculator</h2>
         <form  method="post" attribute="post" action="index.php">
           <p>Input first number:<br/><br>
-          <input type="text" name="num1" value""></p>
+          <input type="number" name="num1" value""></p>
           <p>Input second number:<br/><br>
-          <input type="text" name="num2" value""></p>
+          <input type="number" name="num2" value""></p>
 
           <input type="submit" name="add" value="+">
           <input type="submit" name="min" value="-">
@@ -58,11 +58,11 @@
 
     <div style="margin-top:200px;" class="column">
       <h2>Finding GCD</h2>
-      <form class="" action="index.php" method="post">
+      <form class="" action="" method="post">
         <p>Input first number:<br/><br>
-        <input type="text" name="number1" value""></p>
+        <input type="number" name="number1" value""></p>
         <p>Input second number:<br/><br>
-        <input type="text" name="number2" value""></p>
+        <input type="number" name="number2" value""></p>
 
         <input type="submit" name="submit" value="Submit">
         <br><br>
